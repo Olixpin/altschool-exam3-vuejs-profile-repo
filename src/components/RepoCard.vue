@@ -2,7 +2,7 @@
   <li class="py-6 border-t border-grey-200 flex justify-between items-center">
     <div class="">
       <div className="flex gap-x-2 items-center">
-        <router-link :to="{ name: 'Repo', params: { id: repo.id } }">
+        <router-link :to="{ name: 'Repo', params: { name: repo.name } }">
           <h2 class="text-lg font-semibold">{{ repo.name }}</h2>
         </router-link>
         <p

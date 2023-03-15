@@ -22,10 +22,10 @@
       class="flex flex-col items-start gap-y-3 md:flex-row justify-between md:items-center py-8 border-t border-grey-200"
       :class="{ hidden: search !== '' }"
     >
-      <div class="flex items-center gap-x-2">
+      <div class="flex items-center gap-x-2 flex-wrap">
         <button
           class="px-4 py-2 border border-grey-200 rounded-md transition-all duration-300 hover:bg-[#E5E5E5]"
-          :class="{ d: page === 1 }"
+          :class="{ hidden: page === 1 }"
           @click="page > 1 ? page-- : ''"
         >
           Prev
@@ -49,6 +49,7 @@
         </button>
         <button
           class="px-4 py-2 border border-grey-200 rounded-md transition-all duration-300 hover:bg-[#E5E5E5]"
+          :class="{ hidden: page === pageLength }"
           @click="page < pageLength ? page++ : ''"
         >
           Next

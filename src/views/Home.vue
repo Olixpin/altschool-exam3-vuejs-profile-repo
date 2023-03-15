@@ -15,7 +15,7 @@
       <h1
         class="text-5xl text-center font-normal max-md:text-3xl max-sm:text-2xl"
       >
-        Welcome to talentless <br class="br" />Developer's Repositories
+        Welcome to olixpin <br class="br" />Developer's Repositories
       </h1>
       <button class="bg-dark-yellow px-8 py-2 font-bold mt-8 rounded-full">
         <router-link to="/repos">Go to Repos</router-link>

@@ -5,13 +5,6 @@
     <div
       class="content mx-auto container px-8 max-[375px]:px-2 flex flex-col gap-4 max-[504px]:py-8 py-8"
     >
-      <!-- <div class="flex">
-        <h3 class="flex-[0.4]"></h3>
-        <h1 class="flex-[0.6] text-3xl py-4 font-bold uppercase">
-          Repositories
-        </h1>
-      </div> -->
-
       <div class="md:grid md:grid-cols-3 md:grid-rows-[auto_1fr] md:gap-x-8">
         <div class="aside md:h-screen border-r-grey-200 border-r-[.5px] pr-8">
           <div class="flex gap-x-4 items-center md:flex-col md:items-start">
@@ -61,16 +54,6 @@
         <repo-main></repo-main>
       </div>
     </div>
-    <!-- <div v-if="isLoading">Loading...</div>
-    <div v-if="error">{{ error }}</div>
-    <div v-if="repos.length">
-      <ul>
-        <li v-for="repo in repos" :key="repo.name">
-          <a :href="repo.url">{{ repo.name }}</a>
-          <p>{{ repo.description }}</p>
-        </li>
-      </ul>
-    </div> -->
   </section>
 </template>
 
@@ -78,8 +61,6 @@
 import { ref, onMounted } from "vue";
 import { useStore } from "vuex";
 import RepoMain from "../components/RepoMain.vue";
-
-// import { AiOutlineUsergroupAdd } from "vue3-icomoon";
 
 const store = useStore();
 const repos = ref([]);
