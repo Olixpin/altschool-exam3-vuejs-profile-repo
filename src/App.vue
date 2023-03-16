@@ -4,7 +4,7 @@
   <div class="bg-gray-100 h-full">
     <header class="bg-dark-teal shadow h-16 px-2 flex sticky top-0 z-50">
       <div
-        class="header-wrapper mx-auto container flex items-center justify-between px-8 max-[375px]:px-2 w-full"
+        class="header-wrapper mx-auto container flex items-center justify-between px-8 max-[335px]:px-4 w-full"
       >
         <router-link
           :to="{ name: 'Home' }"

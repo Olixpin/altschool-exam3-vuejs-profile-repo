@@ -16,7 +16,7 @@
           {{ repo.description === null ? "No description" : repo.description }}
         </p>
       </div>
-      <div className="flex gap-x-4 mt-4 items-center">
+      <div className="flex gap-x-4 mt-4 items-center flex-wrap">
         <div v-if="repo.language" className="flex gap-x-2 items-center">
           <div
             className="w-3 h-3 rounded-full"

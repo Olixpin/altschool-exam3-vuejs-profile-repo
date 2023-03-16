@@ -1,12 +1,23 @@
 <template>
-  <div v-if="isLoading">Loading...</div>
+  <div
+    v-if="isLoading"
+    class="content mx-auto container px-8 max-[375px]:px-2 flex items-center justify-center min-h-[calc(100vh-64px)] flex-col gap-4"
+  >
+    <v-progress-circular
+      indeterminate
+      color="dark-yellow"
+      class="mx-auto mt-10"
+    ></v-progress-circular>
+  </div>
 
   <section v-else class="px-2 bg-grey-light-100">
     <div
       class="content mx-auto container px-8 max-[375px]:px-2 flex flex-col gap-4 max-[504px]:py-8 py-8"
     >
       <div class="md:grid md:grid-cols-3 md:grid-rows-[auto_1fr] md:gap-x-8">
-        <div class="aside md:h-screen border-r-grey-200 border-r-[.5px] pr-8">
+        <div
+          class="aside md:h-screen border-r-grey-200 border-r-[.5px] pr-8 max-md:border-r-0"
+        >
           <div class="flex gap-x-4 items-center md:flex-col md:items-start">
             <img
               :src="profile?.avatar_url"
