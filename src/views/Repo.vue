@@ -1,7 +1,7 @@
 <template>
   <section class="px-2">
     <div
-      v-if="isLoading"
+      v-if="loading"
       class="content mx-auto container px-8 max-[375px]:px-2 flex items-center justify-center min-h-[calc(100vh-64px)] flex-col gap-4"
     >
       <v-progress-circular
