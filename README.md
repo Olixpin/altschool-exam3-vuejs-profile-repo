@@ -9,8 +9,11 @@ Create another page to display data for a single repository clicked from the lis
 Implement a wildcard route to handle 404 pages.
 Ensure that the UI and design of the pages are aesthetically pleasing and user-friendly.
 
-<!-- import image -->
 ![Alt text](./src/assets/project-image.png "Project Image")
+
+## Hosted Link
+
+<https://altschool-exam3-vuejs-profile-repo.vercel.app//>
 
 ## API Endpoint
 
@@ -36,7 +39,7 @@ npm install
 ### Compiles and hot-reloads for development
 
 ```
-npm run serve
+npm run dev
 ```
 
 ### Compiles and minifies for production
