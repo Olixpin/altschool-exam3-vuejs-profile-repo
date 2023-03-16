@@ -13,7 +13,7 @@ Ensure that the UI and design of the pages are aesthetically pleasing and user-f
 
 ## Hosted Link
 
-<https://altschool-exam3-vuejs-profile-repo.vercel.app//>
+<https://altschool-exam3-vuejs-profile-repo-olixpin.vercel.app/>
 
 ## API Endpoint
 
