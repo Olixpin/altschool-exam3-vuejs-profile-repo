@@ -1,7 +1,46 @@
-# Vue 3 + Vite
+# Altschool 3rd Semester Exam
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Overview
 
-## Recommended IDE Setup
+Create a new Vue.js application.
+Fetch GitHub repositories using the following endpoint:
+Create a page to display a list of all the user's repositories on GitHub. The page should have pagination functionality.
+Create another page to display data for a single repository clicked from the list of repositories using nested routes.
+Implement a wildcard route to handle 404 pages.
+Ensure that the UI and design of the pages are aesthetically pleasing and user-friendly.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<!-- import image -->
+![Alt text](./src/assets/project-image.png "Project Image")
+
+## API Endpoint
+
+<https://api.github.com/users/USERNAME/repos>
+
+## Requirements
+
+- Use Vue.js
+- Use Vue Router
+
+## Other Tools Used
+
+- Axios
+- Tailwind CSS
+- Vue CLI
+
+## Project setup
+
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+
+```
+npm run build
+```
